@@ -1,12 +1,13 @@
 {
   "name": "tetri",
-  "version": "0.2.0",
-  "description": "Read your Tetri wallets, transactions, budgets and reports, and record transactions, from Claude Code.",
+  "version": "0.3.0",
+  "description": "Ask about your Tetri wallets, balances, transactions, budgets, goals and reports, and record, categorize, correct or delete transactions after you confirm them, from Claude Code.",
   "author": {
     "name": "Tetri",
     "url": "https://tetri.app"
   },
   "homepage": "https://tetri.app",
   "keywords": ["tetri", "finance", "transactions", "budget", "mcp"],
-  "repository": "https://github.com/tetri-app/agent-plugin"
+  "repository": "https://github.com/tetri-app/agent-plugin",
+  "license": "Apache-2.0"
 }

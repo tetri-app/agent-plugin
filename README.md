@@ -1,8 +1,10 @@
+<p align="center"><img src="assets/logo.png" width="96" height="96" alt="Tetri"></p>
+
 # Tetri for Claude Code and Codex
 
 This plugin connects your Tetri workspace to Claude Code and Codex through the
 Tetri MCP server at `https://api.tetri.app/mcp`. It adds one skill with the
-rules for money, retries and writes. The agent can read wallets, balances,
+workflows for recording transactions and retries. The agent can read wallets, balances,
 transactions, budgets, goals, recurring transactions, reports and imports. It
 can record a transaction after you confirm it.
 
@@ -45,8 +47,8 @@ The last command opens the same Tetri page in the browser. Add `--no-browser`
 to get the address and open it yourself.
 
 Codex asks before each tool call when `default_tools_approval_mode` is
-`prompt`. Set a per-tool `approval_mode` of `prompt` for `create_transaction`
-so every write needs your yes.
+`prompt`. Set a per-tool `approval_mode` of `prompt` for `create_transaction`,
+`update_transaction` and `delete_transaction` so every write needs your yes.
 
 ## Access
 
@@ -87,3 +89,8 @@ The plugin version is in `.claude-plugin/plugin.json` and
 `.codex-plugin/plugin.json`. Both files carry the same number. Users get an
 update only when the number changes. [CHANGELOG.md](CHANGELOG.md) lists each
 change.
+
+## License
+
+[Apache-2.0](LICENSE). The license covers the plugin files. It grants no right
+to the Tetri name or logo beyond naming the service the plugin connects to.

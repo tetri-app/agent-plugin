@@ -1,7 +1,7 @@
 {
   "name": "tetri",
-  "version": "0.2.0",
-  "description": "Read your Tetri wallets, transactions, budgets and reports, and record transactions, from Codex.",
+  "version": "0.3.0",
+  "description": "Ask about your Tetri wallets, balances, transactions, budgets, goals and reports, and record, categorize, correct or delete transactions after you confirm them, from Codex.",
   "author": {
     "name": "Tetri",
     "url": "https://tetri.app"
@@ -12,10 +12,23 @@
   "mcpServers": "./mcp.json",
   "interface": {
     "displayName": "Tetri",
-    "shortDescription": "Read your wallets and record transactions",
+    "shortDescription": "Your Tetri finances: balances, spending, budgets",
+    "longDescription": "Connects Codex to your Tetri workspace. Ask about balances, spending by category, budgets, goals, recurring payments and monthly reports, describe a purchase in plain words, or have uncategorized transactions sorted, and Codex makes each change after you confirm. You sign in to Tetri in the browser; the plugin stores no token.",
     "developerName": "Tetri",
     "category": "Productivity",
     "capabilities": ["Interactive", "Write"],
-    "websiteURL": "https://tetri.app"
-  }
+    "websiteURL": "https://tetri.app",
+    "privacyPolicyURL": "https://tetri.app/privacy",
+    "termsOfServiceURL": "https://tetri.app/terms",
+    "defaultPrompt": [
+      "What is my balance in each wallet?",
+      "How did my spending this month compare with last month?",
+      "Record 12.50 for lunch today, paid from my card"
+    ],
+    "brandColor": "#1A1A1A",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/tetri-app/agent-plugin"
 }
