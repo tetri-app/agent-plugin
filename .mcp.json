@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tetri": {
+      "type": "http",
+      "url": "https://api.tetri.app/mcp"
+    }
+  }
+}

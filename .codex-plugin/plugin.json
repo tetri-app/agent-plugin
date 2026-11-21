@@ -1,0 +1,21 @@
+{
+  "name": "tetri",
+  "version": "0.2.0",
+  "description": "Read your Tetri wallets, transactions, budgets and reports, and record transactions, from Codex.",
+  "author": {
+    "name": "Tetri",
+    "url": "https://tetri.app"
+  },
+  "homepage": "https://tetri.app",
+  "keywords": ["tetri", "finance", "transactions", "budget", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "interface": {
+    "displayName": "Tetri",
+    "shortDescription": "Read your wallets and record transactions",
+    "developerName": "Tetri",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://tetri.app"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tetri": {
+      "type": "streamable-http",
+      "url": "https://api.tetri.app/mcp"
+    }
+  }
+}

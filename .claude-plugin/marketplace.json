@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tetri",
+  "description": "Tetri plugins for Claude Code.",
+  "owner": { "name": "Tetri", "url": "https://tetri.app" },
+  "plugins": [
+    {
+      "name": "tetri",
+      "description": "Read your Tetri wallets, transactions, budgets and reports, and record transactions.",
+      "source": "./",
+      "category": "finance"
+    }
+  ]
+}
